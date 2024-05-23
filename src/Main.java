@@ -15,6 +15,7 @@ public class Main {
                 case 3-> courseService.getCoursebyId();
                 case 4-> courseService.getCoursebyTitle();
                 case 5-> courseService.removeCourseByID();
+                default -> System.out.println("invalid input");
             }
         }
     }
